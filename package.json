@@ -1,0 +1,26 @@
+{
+  "name": "cs554_lab_5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Timothy Hebert 20007511",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.6.7",
+    "apollo-server-cache-redis": "^3.3.1",
+    "axios": "^0.26.1",
+    "bluebird": "^3.7.2",
+    "flat": "^5.0.2",
+    "graphql": "^16.3.0",
+    "ioredis": "^5.0.3",
+    "lodash": "^4.17.21",
+    "node-redis": "^0.1.7",
+    "redis": "^3.0.2",
+    "redis-server": "^1.2.2",
+    "uuid": "^8.3.2"
+  }
+}
